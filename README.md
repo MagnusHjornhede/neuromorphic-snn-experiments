@@ -6,7 +6,7 @@ The implementation is provided in:
 
 Simulating_an_SNN_on_DYNAP.ipynb
 
----
+
 
 ## Project Goal
 
@@ -24,7 +24,7 @@ For broader context:
 - Neuromorphic computing overview (Nature): https://www.nature.com/articles/s41586-019-1677-2
 - Surrogate gradient learning for SNNs: https://arxiv.org/abs/1901.09948
 
----
+
 
 ## What is DYNAP?
 
@@ -41,7 +41,7 @@ Official site:
 
 These systems are optimized for processing temporal and event-based data efficiently.
 
----
+
 
 ## Network Architecture
 
@@ -63,7 +63,7 @@ If unfamiliar with the LIF model:
 
 The notebook simulates these dynamics and evaluates resulting spike activity and stability.
 
----
+
 
 ## What This Project Demonstrates
 
@@ -72,7 +72,7 @@ The notebook simulates these dynamics and evaluates resulting spike activity and
 - How network configuration affects stability and activity patterns
 - The practical gap between software SNN models and neuromorphic hardware implementations
 
----
+
 
 ## Why This Matters
 
@@ -85,7 +85,7 @@ Neuromorphic systems aim to:
 
 Understanding simulation and parameter mapping is a critical step before deploying networks to physical neuromorphic hardware.
 
----
+
 
 ## Requirements
 
@@ -98,7 +98,7 @@ Install basic dependencies:
 
 pip install numpy matplotlib
 
----
+
 
 ## Running the Project
 
@@ -108,6 +108,6 @@ jupyter notebook Simulating_an_SNN_on_DYNAP.ipynb
 
 Run all cells sequentially.
 
----
+
 
 This repository serves as a compact, hardware-aware exploration of spiking neural network dynamics and neuromorphic system design.
